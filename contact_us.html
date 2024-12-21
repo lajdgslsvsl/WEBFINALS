@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+<title>Contact Form</title>
+</head>
+<body>
+    <header>
+        <a href="nav.html" class="navtitle"><h1 class="title">IShowSickness</h1></a>
+    </header>
+    <nav class="sticky-nav">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        
+        <div class="left-nav">
+            <h1 class="small-title">Health</h1>
+        </div>
+        <ul class="navbar">
+            <li><a href="nav.html">HOME</a></li>
+            <li><a href="contact_us.html">CONTACT US</a></li>
+            <li><a href="FAQS.html">FAQ'S</a></li>
+        </ul>
+     
+    </nav>
+    <h1>Questions? Shoot us an Email</h1>
+
+    <div class="formcontainer"> 
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+
+    <label for="phone">Phone Number:</label>
+    <input type="text" id="phone" name="phone">
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" placeholder="Your Message..."></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+  <!-- Replace this with actual Google Map embed code -->
+    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3867.7598139285456!2d121.14726597421!3d14.208837186232456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd63052014717f%3A0x4e97cee8b1cd9380!2sCity%20College%20of%20Calamba!5e0!3m2!1sen!2sph!4v1732082234121!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+  </div>
+</body>
+<script src="javascript.js"></script>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section contact">
+            <h3>CONTACT</h3>
+            <p> <img src="images/fb.png" alt="fbIcon"> citycollegeofcalamba</p>
+            <p> <img src="images/email.png" alt="emailIcon"> citycollegeofcalamba</p>
+            <p><span>&#x260E;</span>090-8765-4321</p>
+        </div>
+        <div class="footer-section menu">
+            <h3>HOME</h3>
+            <ul>
+                <li><a href="nav.html">Home</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+            </ul>
+        </div>
+        <div class="footer-section newsletter">
+            <h3>YOUR FEEDBACK</h3>
+            <form action="#">
+                <input type="email" placeholder="Enter Your email" required>
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright © 2021 City College of Calamba. All Rights Reserved.</p>
+    </div>
+</footer>
+</html>
